@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 178148169}
   - component: {fileID: 178148168}
   - component: {fileID: 178148167}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Vector3_negativeInfinity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 312187188}
   - component: {fileID: 312187187}
   - component: {fileID: 312187186}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Vector3_down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,6 +438,7 @@ GameObject:
   - component: {fileID: 313018557}
   - component: {fileID: 313018556}
   - component: {fileID: 313018555}
+  - component: {fileID: 313018558}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -462,7 +463,7 @@ Camera:
   m_GameObject: {fileID: 313018554}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -484,7 +485,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 32
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -510,6 +511,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &313018558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313018554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 816a196e0a7554cfe992701bdb0c95d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 1080
+  height: 1920
+  path: 
+  cam: {fileID: 313018556}
+  capture: 0
 --- !u!1 &371799618
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,7 +541,7 @@ GameObject:
   - component: {fileID: 371799621}
   - component: {fileID: 371799620}
   - component: {fileID: 371799619}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Vector3_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +648,7 @@ GameObject:
   - component: {fileID: 395993596}
   - component: {fileID: 395993595}
   - component: {fileID: 395993599}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Vector3_back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,7 +755,7 @@ GameObject:
   - component: {fileID: 651859223}
   - component: {fileID: 651859222}
   - component: {fileID: 651859221}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Vector3_one
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -844,7 +862,7 @@ GameObject:
   - component: {fileID: 1119362316}
   - component: {fileID: 1119362315}
   - component: {fileID: 1119362314}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Vector3_positiveInfinity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -951,7 +969,7 @@ GameObject:
   - component: {fileID: 1657818919}
   - component: {fileID: 1657818918}
   - component: {fileID: 1657818917}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Vector3_forward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1058,7 +1076,7 @@ GameObject:
   - component: {fileID: 1890754081}
   - component: {fileID: 1890754080}
   - component: {fileID: 1890754079}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Vector3_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1165,7 +1183,7 @@ GameObject:
   - component: {fileID: 2002515798}
   - component: {fileID: 2002515797}
   - component: {fileID: 2002515796}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Vector3_zero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1272,7 +1290,7 @@ GameObject:
   - component: {fileID: 2027680190}
   - component: {fileID: 2027680189}
   - component: {fileID: 2027680188}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Vector3_up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
